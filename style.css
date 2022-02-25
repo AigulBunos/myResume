@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(0.25turn, #5297ac, #a6c6c1, #e6e0cf, #debfb5, #baa6a5);;
+}
+
+/* Navbar*/
+.navbar {
+    background-color: whitesmoke;
+}
+
+.navbar a {
+    color: purple;
+    font-family: cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    margin: 0 10px;
+    
+}
+
+.navbar a:hover {
+   font-size: bolder;
+}
+
+/* .navbar span {
+    color: purple;
+} */
+
+
+#headJumbo img {
+    height: 300px;
+    width: auto;
+    border-radius: 50px;
+}
+#headJumbo .jumbotron {
+    background-color:purple;
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px royalblue;
+    margin-top: 15px;
+}
+
+#headJumbo h1 {
+    font-size: 3rem;
+}
+
+#aboutMe {
+    margin-top: 75px;
+}
+
+/* Project show case*/
+#showCase {
+    margin-top: 75px;
+}
+
+.capl h5 {
+    color: purple;
+}
+
+.capl p {
+    color: royalblue;
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+#projectsShow img {
+    width: 100%;
+    height: 550px;
+    /* padding: 20px 0; */
+    border-radius: 15px;
+}
+
+.capl {
+    margin-top: 15px;
+}
+
+/*Work History*/
+
+#workHistory {
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+#workHistory h2 {
+    font-size: 2rem;
+    text-decoration: underline purple;
+}
+
+#workHistory h4 {
+    font-size: 1.2rem;
+    text-decoration: underline royalblue;    
+}
+
+#workHistory h5 {
+    font-size: 1rem;
+    color: royalblue;
+    
+}
+
+#workHistory h6 {
+    font-size: 0.8rem;    
+}
+
+#education {
+    margin-top: 50px;
+}
+
+#education h2 {
+    font-size: 2rem;
+    text-decoration: underline purple;
+}
+
+#education h4 {
+    font-size: 1.2rem;
+    text-decoration: underline royalblue;    
+}
+
+#education h5 {
+    font-size: 1rem;
+    color: royalblue;    
+}
+
+#education h6 {
+    font-size: 0.8rem;    
+}
+
+#certificates {
+    margin-top: 50px;
+}
+
+
+/* .jumbotron {
+    background-color: aquamarine; 
+    color: royalblue;
+} */ 
+
+/* #skills svg.svg-inline--fa {
+    font-size: 5rem;
+    margin: auto;
+    color: purple;
+    margin: 10px;
+}
+
+#skills svg.svg-inline--fa:hover {
+    color: royalblue!important;
+}  */
+
+#skills {
+    margin-top: 75px;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    text-decoration: underline purple;
+}
+
+#skills .col {
+    font-size: 3rem;
+    margin: auto;
+    color: purple;
+    margin: 10px;
+}
+
+#skills .col:hover {
+    color: royalblue!important;
+} 
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-color: purple;
+    font-size: larger;
+    font-family: cursive;
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+}
