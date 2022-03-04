@@ -28,7 +28,7 @@ body {
 #headJumbo img {
     height: 300px;
     width: auto;
-    border-radius: 50px;
+    border-radius: 80px;
 }
 #headJumbo .jumbotron {
     background-color:purple;
@@ -46,9 +46,21 @@ body {
     margin-top: 75px;
 }
 
+#aboutMe h2 {
+    font-size: 2rem;
+    text-decoration: underline purple;
+    text-align: center;
+}
+
 /* Project show case*/
 #showCase {
     margin-top: 75px;
+}
+
+#showCase h2 {
+    font-size: 2rem;
+    text-decoration: underline purple;
+    text-align: center;
 }
 
 .capl h5 {
@@ -78,12 +90,13 @@ body {
 
 #workHistory {
     margin-top: 8px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 #workHistory h2 {
     font-size: 2rem;
     text-decoration: underline purple;
+    text-align: center;
 }
 
 #workHistory h4 {
@@ -102,12 +115,13 @@ body {
 }
 
 #education {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 #education h2 {
     font-size: 2rem;
     text-decoration: underline purple;
+    text-align: center;
 }
 
 #education h4 {
@@ -126,6 +140,13 @@ body {
 
 #certificates {
     margin-top: 50px;
+    margin-left: 80px;
+}
+
+#certificates h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline purple;
 }
 
 
@@ -147,26 +168,37 @@ body {
 
 #skills {
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 #skills h2 {
     font-size: 2rem;
     text-decoration: underline purple;
+    text-align: center;
 }
 
 #skills .col {
     font-size: 3rem;
     margin: auto;
-    color: purple;
+    color: royalblue;
     margin: 10px;
 }
 
 #skills .col:hover {
-    color: royalblue!important;
+    color: purple!important;
 } 
 
+#footJumbo .jumbotron {
+    background-color:purple;
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px royalblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 footer {
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 30px;
     border-color: purple;
     font-size: larger;
@@ -175,4 +207,5 @@ footer {
     color: whitesmoke;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 2px 2px 5px royalblue;
 }
